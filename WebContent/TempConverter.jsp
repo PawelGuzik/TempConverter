@@ -15,7 +15,7 @@
 	<h1>Konwerter temperatury</h1>
 	<form id="form" action="TempServlet" method="get">
 		<label for="temp">Temperatura: </label>
-		<input type="number" value="0" name="tempValue" required>
+		<input type="number" value="0" name="tempValue" required size="1">
 		<select name="skale">
 			<option value="C">C</option>
 			<option value="F">F</option>
